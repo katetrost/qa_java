@@ -1,2 +1,2 @@
 # qa_java
-QA Java Project
+Yandex.Practicum QA Engineer
