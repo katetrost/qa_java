@@ -20,7 +20,9 @@ public class LionDoesHaveManeNegativeTest {
     @Parameterized.Parameters
     public static Object[] getSex() {
         return new Object[][]{
-                {"Неизвестно", true}
+                {"Неизвестно", true},
+                {"", true},
+                {"123", false}
         };
     }
 
