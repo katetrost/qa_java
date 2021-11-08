@@ -4,7 +4,6 @@ import java.util.List;
 
 public class Alex extends Lion{
     private static final Feline feline = new Feline();
-    private static final String sex = "Самец";
 
     public Alex() throws Exception {
         super("Самец", feline);
